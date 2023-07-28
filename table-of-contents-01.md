@@ -5,7 +5,7 @@
     - Reproducibility
     - Collaboration
     - Speed
-    - $\text{Speed}$ #normal
+    - $\color[red]Speed$ #normal
 
 $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 
