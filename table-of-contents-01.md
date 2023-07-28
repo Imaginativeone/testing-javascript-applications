@@ -6,6 +6,8 @@
     - Collaboration
     - Speed
 
-<h1><font color="green">This is a test.</font></h1>
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
 $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
+
+$\color[rgb]{1,0,1} hello$
+$\color[RGB]{155,127,0} hello$
+$\color[gray]{0.3} hello$
