@@ -6,4 +6,4 @@
     - Collaboration
     - Speed
 
-<h1 style="background-color:green">This is a test.</h1>
+<h1 style="color:green">This is a test.</h1>
