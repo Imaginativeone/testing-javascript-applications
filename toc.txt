@@ -1,0 +1,150 @@
+contents
+preface xiii
+acknowledgments xv
+about this book xvii
+about the author xxi
+about the cover illustration xxii
+PART 1 TESTING JAVASCRIPT APPLICATIONS ................. 1
+1 An introduction to automated testing 3
+1.1 What is an automated test? 4
+1.2 Why automated tests matter 9
+Predictability 10 ■ Reproducibility 12 ■ Collaboration 13
+Speed 15
+2 What to test and when? 18
+2.1 The testing pyramid 19
+2.2 Unit tests 23
+2.3 Integration tests 31
+2.4 End-to-end tests 37
+Testing HTTP APIs 39 ■ Testing GUIs 43 ■ Acceptance tests
+and end-to-end tests are not the same 44
+2.5 Exploratory testing and the value of QA 45
+2.6 Tests, cost, and revenue 47
+Licensed to Douglass Franklin <doug@dougfranklin.com>
+viii CONTENTS
+PART 2 WRITING TESTS ............................................. 57
+3 Testing techniques 59
+3.1 Organizing test suites 60
+Breaking down tests 65 ■ Parallelism 68 ■ Global hooks 70
+Atomicity 71
+3.2 Writing good assertions 73
+Assertions and error handling 73 ■ Loose assertions 76
+Using custom matchers 81 ■ Circular assertions 83
+3.3 Test doubles: Mocks, stubs, and spies 85
+Mocking imports 96
+3.4 Choosing what to test 100
+Don’t test third-party software 101 ■ To mock, or not to
+mock: That’s the question 102 ■ When in doubt, choose
+integration tests 104
+3.5 Code coverage 105
+Automated coverage reports 107 ■ Coverage types 107
+What coverage is good for and what it isn’t 108
+4 Testing backend applications 112
+4.1 Structuring a testing environment 113
+End-to-end testing 115 ■ Integration testing 119
+Unit testing 124
+4.2 Testing HTTP endpoints 126
+Testing middleware 131
+4.3 Dealing with external dependencies 140
+Integrations with databases 140 ■ Integrations with
+other APIs 152
+5 Advanced backend testing techniques 161
+5.1 Eliminating nondeterminism 162
+Parallelism and shared resources 163 ■ Dealing with
+time 167
+5.2 Reducing costs while preserving quality 176
+Reducing overlap between tests 177 ■ Creating transitive
+guarantees 181 ■ Turning assertions into
+preconditions 182
+Licensed to Douglass Franklin <doug@dougfranklin.com>
+CONTENTS ix
+6 Testing frontend applications 185
+6.1 Introducing JSDOM 187
+6.2 Asserting on the DOM 194
+Making it easier to find elements 201 ■ Writing better
+assertions 204
+6.3 Handling events 207
+6.4 Testing and browser APIs 217
+Testing a localStorage integration 217 ■ Testing a History
+API integration 221
+6.5 Dealing with WebSockets and HTTP requests 234
+Tests involving HTTP requests 235 ■ Tests involving
+WebSockets 240
+7 The React testing ecosystem 249
+7.1 Setting up a test environment for React 250
+Setting up a React application 250 ■ Setting up a testing
+environment 255
+7.2 An overview of React testing libraries 258
+Rendering components and the DOM 259 ■ React Testing
+Library 264 ■ Enzyme 277 ■ The React test renderer 278
+8 Testing React applications 281
+8.1 Testing component integration 282
+Stubbing components 291
+8.2 Snapshot testing 295
+Snapshots beyond components 305 ■ Serializers 307
+8.3 Testing styles 307
+8.4 Component-level acceptance tests and component
+stories 317
+Writing stories 318 ■ Writing documentation 326
+9 Test-driven development 330
+9.1 The philosophy behind test-driven development 332
+What test-driven development is 332 ■ Adjusting the size of your
+iterations 339 ■ Why adopt test-driven development? 342
+When not to apply test-driven development 344
+9.2 Writing a JavaScript module using TDD 345
+Licensed to Douglass Franklin <doug@dougfranklin.com>
+x CONTENTS
+9.3 Testing top-down versus testing bottom-up 355
+What bottom-up and top-down testing mean 356 ■ How
+top-down and bottom-up approaches impact a test-driven
+workflow 357 ■ The pros and cons of bottom-up versus
+top-down approaches 359
+9.4 Balancing maintenance costs, delivery speed, and
+brittleness 364
+Test-driven implementation 364 ■ Test-driven
+maintenance 367
+9.5 Setting up an environment for TDD to succeed 369
+Teamwide adoption 370 ■ Keeping distinct lanes 371
+Pairing 373 ■ Supplementary testing 374
+9.6 TDD, BDD, validations, and specificationsBDD
+(behavior-driven development) 375
+10 UI-based end-to-end testing 380
+10.1 What are UI-based end-to-end tests? 381
+10.2 When to write each type of test 383
+UI-based end-to-end tests 383 ■ Pure end-to-end tests 384
+Pure UI tests 385 ■ A note on acceptance testing and this
+chapter’s name 386
+10.3 An overview of end-to-end testing tools 387
+Selenium 387 ■ Puppeteer 392 ■ Cypress 393 ■ When
+to choose Cypress 394
+11 Writing UI-based end-to-end tests 397
+11.1 Your first UI-based end-to-end tests 399
+Setting up a test environment 399 ■ Writing your first tests 401
+Sending HTTP requests 411 ■ Sequencing actions 413
+11.2 Best practices for end-to-end-tests 417
+Page objects 417 ■ Application actions 425
+11.3 Dealing with flakiness 429
+Avoiding waiting for fixed amounts of time 430 ■ Stubbing
+uncontrollable factors 433 ■ Retrying tests 443
+11.4 Running tests on multiple browsers 445
+Using a testing framework to run tests within a browser 446
+Running UI-based tests in multiple browsers 447
+11.5 Visual regression tests 448
+Licensed to Douglass Franklin <doug@dougfranklin.com>
+CONTENTS xi
+PART 3 BUSINESS IMPACT ........................................ 453
+12 Continuous integration and continuous delivery 455
+12.1 What are continuous integration and continuous
+delivery? 457
+Continuous integration 457 ■ Continuous delivery 460
+12.2 The role of automated tests in a CI/CD pipeline 463
+12.3 Version-control checks 464
+13 A culture of quality 468
+13.1 Using type systems to make invalid states
+unrepresentable 469
+13.2 Reviewing code to catch problems machines can’t 474
+13.3 Using linters and formatters to produce consistent
+code 476
+13.4 Monitoring your systems to understand how they actually
+behave 478
+13.5 Explaining your software with good documentation 479
+index 483
