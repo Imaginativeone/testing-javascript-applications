@@ -1,13 +1,10 @@
-- Chapter 01 - An Introduction to Automated Testing
-- Chapter 02 - What to Test and When?
-- Chapter 03 - Testing Techniques
-- Chapter 04 - Testing Backend Applications
-- Chapter 05 - Advanced Backend Testing Techniques
-- Chapter 06 - Testing Frontend Applications
-- Chapter 07 - The React Testing Ecosystem
-- Chapter 08 - Testing React Applications
-- Chapter 09 - Test-Driven Development
-- Chapter 10 - UI-Based End-to-End Testing
-- Chapter 11 - Writing UI-Based End-to-End Tests
-- Chapter 12 - Continuous Integration and Continuous Delivery
-- Chapter 13 - A Culture of Quality
+# 5 Advanced backend testing techniques 161
+
+## 5.1 Eliminating nondeterminism 162
+- Parallelism and shared resources 163 
+- ■ Dealing with time 167
+
+## 5.2 Reducing costs while preserving quality 176
+- Reducing overlap between tests 177 
+- ■ Creating transitive guarantees 181
+- ■ Turning assertions into preconditions 182

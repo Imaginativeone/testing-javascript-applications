@@ -47,6 +47,7 @@ Testing middleware 131
 4.3 Dealing with external dependencies 140
 Integrations with databases 140 ■ Integrations with
 other APIs 152
+
 5 Advanced backend testing techniques 161
 5.1 Eliminating nondeterminism 162
 Parallelism and shared resources 163 ■ Dealing with
@@ -57,6 +58,7 @@ guarantees 181 ■ Turning assertions into
 preconditions 182
 Licensed to Douglass Franklin <doug@dougfranklin.com>
 CONTENTS ix
+
 6 Testing frontend applications 185
 6.1 Introducing JSDOM 187
 6.2 Asserting on the DOM 194
