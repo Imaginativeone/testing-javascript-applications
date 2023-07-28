@@ -1,9 +1,3 @@
-# Chapter 04 - Testing Backend Applications
-
-## 4.1 Structuring a testing environment 113
-## 4.2 Topic
-## 4.3 Topic
-
 # Chapter 04 Testing backend applications 112
 
 ## 4.1 Structuring a testing environment 113
